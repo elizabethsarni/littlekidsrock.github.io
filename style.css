@@ -32,10 +32,6 @@
     float: left;
 }
 
-nav {
-    background-color: #3C76EB;
-}
-
 body {
     margin: 30px;
     height: 100%;
@@ -67,7 +63,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3C76EB;
 }
 
 li {
@@ -76,6 +71,6 @@ li {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     display: block;
-    color: white;
+    color: #3C76EB;
     padding: 20px;
 }
