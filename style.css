@@ -1,3 +1,5 @@
+
+
 .logo-main {
     float: left;
     width: 160px;
@@ -30,21 +32,19 @@
     float: left;
 }
 
-footer .page-footer {
-    width: 100%;
-    height: 200px;
-    padding: 20px;
-}
-
 nav {
     background-color: #3C76EB;
 }
 
 body {
+    margin: 30px;
+    height: 100%;
+}
+
+p {
     font-family: 'Merriweather', serif;
     font-size: 17px;
-    margin: 30px;
-    }
+}
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
