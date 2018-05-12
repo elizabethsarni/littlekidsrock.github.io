@@ -75,15 +75,30 @@ li {
     padding: 20px;
 }
 
-li:visited {
-    text-decoration: none;
-}
-
 nav {
     text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 nav a {
     text-decoration: none;
     color: #3C76EB;
+}
+
+footer {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    height: 200px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3C76EB;
+}
+
+.footer-logo {
+    float: left;
+    width: 160px;
+    height: 70px;
 }
