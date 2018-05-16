@@ -6,7 +6,7 @@
 nav {
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
-  height: 60px;
+  height: 100px;
   width: 100%;
 }
 
@@ -21,7 +21,7 @@ nav a {
 }
 
 .nav {
-  height:50px;
+  height:100px;
 }
 
 /* BODY */
@@ -42,16 +42,17 @@ p {
 
 a {
 font-weight: 700;
-color: #373B44;
+color: white;
 position: relative;
+font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 3em;
   display: block;
   color: white;
   font-weight: 300;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
@@ -63,6 +64,7 @@ h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     float: left;
+    color: white;
 }
 
 ul {
@@ -171,6 +173,12 @@ li {
 
 /* FOR EDUCATORS PAGE */
 
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  float: left;
+}
+
 .blue-button {
   background-color: transparent;
   font: 1.3em 'Josefin Sans', sans-serif;
@@ -197,16 +205,17 @@ a:active, a:hover {
   height: 900px;
 }
 
-<<<<<<< Updated upstream
-=======
+.img-fluid {
+  width: 700px;
+  height: 400px;
+}
 
->>>>>>> Stashed changes
-.section-two {
+#section-two {
 background-color: #DF8B46;
 height: 900px;
 }
 
-.section-three {
+#section-three {
 background-color: #3C76EB;
 height: 900px;
 }
@@ -228,13 +237,11 @@ height: 900px;
 
 section {
   width: 100%;
-  padding: 0 7%;
+  padding: 15%;
   display: table;
   margin: 0;
   max-width: none;
 }
-
-
 
 /* FOOTER */
 
@@ -263,16 +270,7 @@ footer a {
   #footer h3 {    
     color: white;
   }
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 
   #footer h5 {    
     color: white;
   }
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
