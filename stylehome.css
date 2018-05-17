@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box; 
+}
+
+/* NAV */
+nav {
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 60px;
+  width: 100%;
+}
+
+#bluea {
+  text-decoration: none;
+  color: #3C76EB;
+}
+
+#bluea:hover {
+    background-color:  #3C76EB;
+    color: #fff;
+}
+
+.logo-main {
+    float: left;
+    width: 160px;
+}
+
+.nav {
+  height:50px;
+}
+
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+/* BODY */
+
+body {
+    margin:0;
+    height: 100%;
+    font-weight: 500px;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  font-family: 'Merriweather', serif;
+  letter-spacing: .5px;
+}
+
+a {
+font-weight: 700;
+color: #373B44;
+position: relative;
+}
+
+h1 {
+  font-size: 3em;
+  display: block;
+  color: white;
+  font-weight: 300;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    float: left;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  width: 100%;
+}
+
+.centered {
+    text-align: center;
+  }
+  
+  .mt {
+    margin-top: 50px;
+  }
+  
+  .mb {
+    margin-bottom: 50px;
+  }
+  
+  .mtb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .mtb2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .ptb {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+li {
+    float: right;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    display: block;
+    color: #3C76EB;
+    padding: 20px;
+}
+
+
+/* HOME PAGE CONTENT CHUNKS */
+
+.whoweare {
+  background-color: #DF8B46;
+  height: 100%;
+  padding: 0 7%;
+}
+
+.foreducators {
+background-color: #8aa848;
+height: 100%;
+padding: 0 7%;
+}
+
+.getinvolved {
+background-color: #3C76EB;
+height: 100%;
+padding: 0 7%;
+}
+
+
+/* APPLY & SUCCESS PAGE */
+
+.form-header {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    opacity: 0.8; 
+    font-size: 25px;
+}
+
+.next {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    padding-top:0;
+}
+
+#center {
+    text-align: center;
+}
+
+.form {
+    padding-top: 10%;
+}
+
+/* HEADER SECTION */
+
+#headerapply {
+    background-image: url(./img/applyheader.jpg);
+    text-align: center;
+    background-size: cover;
+    color: black;
+    height: 100%;
+   
+  }
+
+  #headersuccess {
+    background-image: url(./img/successheader.jpg);
+    text-align: center;
+    background-size: cover;
+    color: black;
+    height: 100%;
+   
+  }
+  
+
+  .boxapply {
+    background-color:#46494d;
+    opacity: 0.8; 
+    vertical-align: middle;
+    height:100%;
+    width:100%;
+} 
+  
+  #headerapply h1 {
+  
+    padding: 5%;
+    color: white;
+    font-size: 50px;
+    opacity: 1; 
+
+  }
+
+  .scards {
+      background-color: #3C76EB;
+      text-align: center;
+      color: white;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      padding:1%;
+  }
+
+
+/* FOR EDUCATORS PAGE */
+
+.blue-button {
+  background-color: transparent;
+  font: 1.3em 'Josefin Sans', sans-serif;
+  display: inline-block;
+  padding: .5em 1em;
+  border-radius: 1.2em;
+  border: 3px solid white;
+  transition: border-color .5s ease;
+  -webkit-border-radius: 1.2em;
+  color: #fff;
+}
+
+.blue-button:hover {
+  background-color: white;
+  border: 3px solid white;
+  color: #DF8B46;
+}
+
+.success {
+    background-color: #8aa848;
+    padding: 5%;
+    }
+
+.intro {
+  background-color: #BE3A2F;
+  height: 900px;
+}
+
+.section-two {
+background-color: #DF8B46;
+height: 900px;
+}
+
+.section-three {
+background-color: #3C76EB;
+height: 900px;
+}
+
+.container {
+  text-align: right;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+section {
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-logo {
+    float: left;
+}
+
+#f:hover {
+    color: #fbd025;
+    text-decoration: underline;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+#footer {
+    padding: 50px;
+    background: #5d6166;
+    color: white;
+  }
+
+.footer li {
+    padding-top:0px;
+    color:white;
+    text-decoration: underline;
+}  
+  
+  #footer h3 {    
+    color: white;
+  }
+
+  #footer h5 {    
+    color: white;
+  }
