@@ -104,7 +104,6 @@ ul {
   
   .ptb {
     padding-top: 80px;
-    padding-bottom: 80px;
   }
 
 li {
@@ -121,30 +120,42 @@ li {
 /* HOME PAGE CONTENT CHUNKS */
 
 .whoweare {
-  background-color: #DF8B46;
-  height: 100%;
-  padding: 0 7%;
-}
-
-.foreducators {
-background-color: #8aa848;
-height: 100%;
-padding: 0 7%;
-}
-
-.getinvolved {
-background-color: #3C76EB;
-height: 100%;
-padding: 0 7%;
-}
-
-.whatnxt {
-  background-color: #8aa848;
+  background-color: #BE3A2F;
+  height: 550px;
+  padding: 4%;
   }
 
-.trythese {
+.howwedoit {
+  background-color: #DF8B46;
+  height: 550px;
+  padding: 4%;
+}
+
+.yourpart {
+background-color: #8aa848;
+height: 550px;
+padding: 4%;
+}
+
+
+
+.quote {
+      background-image: url(./img/instrumentbg.jpg);
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+      color: #333;
+      font-size: 20px;
+      padding: 40px;
+  }
+
+  .more-content {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    font-size: 25px;
     background-color: #3C76EB;
-    }
+}
+  
 
 /* APPLY & SUCCESS PAGE */
 
@@ -163,6 +174,7 @@ padding: 0 7%;
 .form {
     padding-top: 10%;
 }
+
 
 /* HEADER SECTION */
 
@@ -254,18 +266,25 @@ padding: 0 7%;
   width:400px;
 }
 
-
-  .success-header {
+.success-header {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     padding: 1%;
     font-size: 50px;
 }
 
+.whatnxt {
+  background-color: #8aa848;
+  }
 
-/* FOR EDUCATORS PAGE */
+.trythese {
+    background-color: #3C76EB;
+    }
 
-.blue-button {
+
+/* Home Page Content */
+
+.one-button, .two-button, .three-button {
   background-color: transparent;
   font: 1.3em 'Josefin Sans', sans-serif;
   display: inline-block;
@@ -277,10 +296,21 @@ padding: 0 7%;
   color: #fff;
 }
 
-.blue-button:hover {
+.one-button:hover {
+  background-color: white;
+  border: 3px solid white;
+  color: #BE3A2F;
+}
+.two-button:hover {
   background-color: white;
   border: 3px solid white;
   color: #DF8B46;
+}
+
+.three-button:hover {
+  background-color: white;
+  border: 3px solid white;
+  color: #8aa848;
 }
 
 .success {
@@ -288,20 +318,6 @@ padding: 0 7%;
     padding: 5%;
     }
 
-.intro {
-  background-color: #BE3A2F;
-  height: 900px;
-}
-
-.section-two {
-background-color: #DF8B46;
-height: 900px;
-}
-
-.section-three {
-background-color: #3C76EB;
-height: 900px;
-}
 
 .container {
   text-align: right;
