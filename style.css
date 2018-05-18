@@ -3,26 +3,7 @@
 }
 
 /* NAV */
-nav {
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
-  height: 100px;
-  width: 100%;
-}
 
-nav a {
-  text-decoration: none;
-  color: #3C76EB;
-}
-
-.logo-main {
-    float: left;
-    width: 160px;
-}
-
-.nav {
-  height:100px;
-}
 
 /* BODY */
 
@@ -175,8 +156,8 @@ li {
 
 .title {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 25px;
-  float: left;
+  font-size: 40px;
+  color: white;
 }
 
 .blue-button {
@@ -202,7 +183,7 @@ a:active, a:hover {
 
 .intro {
   background-color: #BE3A2F;
-  height: 900px;
+  height: 800px !important;
 }
 
 .img-fluid {
@@ -237,7 +218,7 @@ height: 900px;
 
 section {
   width: 100%;
-  padding: 15%;
+  padding: 100px;;
   display: table;
   margin: 0;
   max-width: none;
