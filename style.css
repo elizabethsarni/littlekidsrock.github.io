@@ -3,7 +3,31 @@
 }
 
 /* NAV */
+nav {
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100px;
+  width: 100%;
+}
 
+#bluea {
+  text-decoration: none;
+  color: #3C76EB;
+}
+
+#bluea:hover {
+    background-color:  #3C76EB;
+    color: #fff;
+}
+
+.logo-main {
+    float: left;
+    width: 160px;
+}
+
+.nav {
+  height:50px;
+}
 
 /* BODY */
 
@@ -198,7 +222,7 @@ height: 900px;
 
 #section-three {
 background-color: #3C76EB;
-height: 900px;
+height: 600px;
 }
 
 .container {
