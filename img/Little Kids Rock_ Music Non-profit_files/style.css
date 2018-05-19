@@ -209,7 +209,7 @@ a:active, a:hover {
 
 .intro {
   background-color: #BE3A2F;
-  
+  height: 500px !important;
   text-align: center;
 }
 
@@ -221,13 +221,11 @@ a:active, a:hover {
 #section-two {
 background-color: #DF8B46;
 height: 750px;
-padding: 5% 20%
 }
 
 #section-three {
 background-color: #3C76EB;
 height: 460px;
-padding: 5% 20%
 }
 
 .container {
@@ -247,20 +245,11 @@ padding: 5% 20%
 
 section {
   width: 100%;
-  padding: 5% 5%;
+  padding: 70px 250px 70px 250px;
   display: table;
   margin: 0;
   max-width: none;
 }
-
-.wrap {
-  margin: 0 auto;
-  width: 67%;
-  }
-  
-.npl {
-  padding-left:0px;
-}  
 
 /* FOOTER  */
 

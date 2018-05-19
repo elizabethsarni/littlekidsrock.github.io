@@ -331,7 +331,7 @@ padding: 4%;
 
 /* Home Page Content */
 
-.one-button, .two-button, .three-button {
+.one-button, .two-button, .three-button, .four-button {
   background-color: transparent;
   font: 1.3em 'Josefin Sans', sans-serif;
   display: inline-block;
@@ -358,6 +358,12 @@ padding: 4%;
   background-color: white;
   border: 3px solid white;
   color: #8aa848;
+}
+
+.four-button:hover {
+  background-color: white;
+  border: 3px solid white;
+  color: #3C76EB
 }
 
 .success {
