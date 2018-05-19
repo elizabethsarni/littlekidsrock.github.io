@@ -20,6 +20,7 @@ nav {
     color: #fff;
 }
 
+
 .logo-main {
     float: left;
     width: 160px;
@@ -27,6 +28,12 @@ nav {
 
 .nav {
   height:50px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 
 html,body{height:100%;}
@@ -53,6 +60,7 @@ a {
 font-weight: 700;
 color: #373B44;
 position: relative;
+font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
@@ -106,6 +114,21 @@ ul {
     padding-top: 80px;
   }
 
+  .up {
+    position: fixed;
+    left: 0px;
+    z-index: 2
+  }
+
+  .under{
+    position: relative;
+    left: 0px;
+    top: 75px;
+    z-index: 1;
+  }
+
+ 
+
 li {
     float: right;
     text-decoration: none;
@@ -121,29 +144,26 @@ li {
 
 .whoweare {
   background-color: #BE3A2F;
-  height: 550px;
   padding: 4%;
   }
 
 .howwedoit {
   background-color: #DF8B46;
-  height: 550px;
   padding: 4%;
 }
 
 .yourpart {
 background-color: #8aa848;
-height: 550px;
 padding: 4%;
 }
 
 
 
 .quote {
-      background-image: url(./img/instrumentbg.jpg);
+      background-image: url(./img/instrumentbgb.jpg);
       font-family: 'Josefin Sans', sans-serif;
       text-align: center;
-      color: #333;
+      color: white;
       font-size: 20px;
       padding: 40px;
   }
@@ -153,7 +173,6 @@ padding: 4%;
     font-family: 'Josefin Sans', sans-serif;
     padding: 1%;
     font-size: 25px;
-    background-color: #3C76EB;
 }
   
 
@@ -229,6 +248,32 @@ padding: 4%;
 
   }
 
+
+.submit-button {
+  background-color: transparent;
+  font: 1.3em 'Josefin Sans', sans-serif;
+  display: inline-block;
+  padding: .5em 1em;
+  border-radius: 1.2em;
+  border: 3px solid #8aa848;
+  transition: border-color .5s ease;
+  -webkit-border-radius: 1.2em;
+  color: #8aa848;
+    
+  }
+
+  .submit-button:hover {
+    background-color: #8aa848;
+    font: 1.3em 'Josefin Sans', sans-serif;
+    display: inline-block;
+    padding: .5em 1em;
+    border-radius: 1.2em;
+    border: 3px solid white;
+    transition: border-color .5s ease;
+    -webkit-border-radius: 1.2em;
+    color: #fff;
+  }
+
 /* Success BOXES */
 .sbox1 {
     background-image: url(./img/card1.jpg);
@@ -275,10 +320,12 @@ padding: 4%;
 
 .whatnxt {
   background-color: #8aa848;
+  padding: 3% 0%;
   }
 
 .trythese {
     background-color: #3C76EB;
+    padding: 3% 0%;
     }
 
 
@@ -343,7 +390,7 @@ section {
 
 
 
-/* FOOTER */
+/* FOOTER  */
 
 footer {
     text-decoration: none;
@@ -351,46 +398,23 @@ footer {
     width: 100%;
 }
 
-footer a {
+#footera {
     text-decoration: none;
-    color: white;
+    color: rgb(156, 154, 154);
+    font-size: 15px;
 }
 
 .footer-logo {
     float: left;
 }
 
-#f:hover {
-    color: #fbd025;
-    text-decoration: underline;
+#footera:hover {
+    color:#3C76EB;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0; 
-}
 
 #footer {
-    padding: 50px;
-    background: #5d6166;
-    color: white;
+    padding: 20px;
   }
 
-.footer li {
-    padding-top:0px;
-    color:white;
-    text-decoration: underline;
-}  
-  
-  #footer h3 {    
-    color: white;
-    font-size: 20px;
-  }
-
-  #footer h5 {    
-    color: white;
-  }
+ 
