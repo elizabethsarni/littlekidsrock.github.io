@@ -82,6 +82,37 @@ ul {
   width: 100%;
 }
 
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+.parallax {
+  /* The image used */
+
+  /* Full height */
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  top: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg1 {
+  background-image: url(./img/par-1.jpg);
+}
+
+.bg2 {
+  background-image: url(./img/par-2.jpg);
+}
+
+.bg3 {
+  background-image: url(./img/par-3.jpg);
+}
+
 .centered {
     text-align: center;
   }
@@ -212,6 +243,7 @@ a:active, a:hover {
 .intro {
   background-color: #BE3A2F;
   height: 500px !important;
+  text-align: center;
 }
 
 .img-fluid {
@@ -221,12 +253,12 @@ a:active, a:hover {
 
 #section-two {
 background-color: #DF8B46;
-height: 800px;
+height: 750px;
 }
 
 #section-three {
 background-color: #3C76EB;
-height: 600px;
+height: 460px;
 }
 
 .container {
@@ -246,7 +278,7 @@ height: 600px;
 
 section {
   width: 100%;
-  padding: 100px;;
+  padding: 70px 250px 70px 250px;
   display: table;
   margin: 0;
   max-width: none;
