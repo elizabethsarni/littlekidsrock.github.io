@@ -127,6 +127,26 @@ ul {
     z-index: 1;
   }
 
+  
+  .parallaxhome {
+    /* The image used */
+  
+    /* Full height */
+    height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    top: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bghome {
+    background-image: url(./img/bghome.jpg);
+  }
+  
+
  
 
 li {
@@ -157,7 +177,9 @@ background-color: #8aa848;
 padding: 4%;
 }
 
-
+.np {
+  padding:0%
+}
 
 .quote {
       background-image: url(./img/instrumentbgb.jpg);
@@ -225,7 +247,7 @@ padding: 4%;
   }
 
   .boxapply {
-    background-color:#46494d;
+    background-color:black;
     opacity: 0.8; 
     vertical-align: middle;
     height:100%;
@@ -243,7 +265,7 @@ padding: 4%;
   #headerapply h1 {
     padding: 5%;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     opacity: 1; 
 
   }
